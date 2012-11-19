@@ -1,0 +1,178 @@
+@import url(base.css);
+
+@import url(application.css);
+
+@import url(layout.css);
+
+@import url(dockbar.css);
+
+@import url(navigation.css);
+
+@import url(portlet.css);
+
+@import url(forms.css);
+
+@import url(extras.css);
+
+@import url(custom.css);
+
+
+body {
+	font: 12px/170% 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, Sans-Serif;
+	color: #333; 	
+	background: #090401 url(../images/bg.jpg) repeat-y center top; 	
+	border-bottom: 30px solid #090401; 
+	text-align: center;
+}
+
+/* Headers */
+h1, h2, h3 {
+	font: bold 1em/1.2em 'Trebuchet MS', 'Helvetica Neue', Arial, Sans-Serif;
+	color: #333;
+	margin: 10px 25px 5px 25px;	 
+}
+h1 { font-size: 3.3em; letter-spacing: -2.0px; color: #f0fb46 }
+h2 { font-size: 2.8em; font-weight: normal; color: #4A2907; }
+h3 { font-size: 2.0em; letter-spacing: -1.0px; color: #4E2B14; border-bottom: 1px solid #D2BAA2; padding-bottom: 5px; margin-top: 12px; } 
+/* ------------------------------------------
+   LAYOUT
+------------------------------------------- */ 
+#wrapper {
+	width: 800px;
+	margin: 0 auto;	
+	text-align: left;			
+}
+/* header */
+#heading {
+	position: relative;
+	height: 130px;	
+	margin: 0; padding: 0;	
+	background: #eadacb url(../images/heading.jpg);
+}
+
+/* contents */
+
+#content{
+	float:left;
+	width: 700px;
+	padding: 15px 50px;			
+}
+.listofdrinks
+{
+	left: 30px;
+	clear: both;
+/* 	width: 700px; */
+width: 100%;
+height: 100%;
+}
+.drink{
+	float: left;
+	width: 25%;
+
+}
+
+.name{
+	font-size: 2.0em; 
+	letter-spacing: -2.0px;
+	font-weight: bold;
+	color: #FFFFFF;
+	margin: 1px 0px 0px 0px;
+}
+.price{
+	font-size: 2.0em;
+	letter-spacing: -2.0px;
+	font-weight: bold;
+	color: #FFFFFF;
+	margin: 7px 7px 10px 0px;
+}
+
+/* start - table */
+table {
+	border-collapse: collapse;
+	margin: 20px 25px;		
+}
+tr { background: #F4EFEA; }
+tr.altrow { background: #F7F3E9;	}
+th, td {
+	text-align: left;			
+	border-width: 1px;
+  	border-style: solid;
+}
+th {
+	color: #273838;
+	background: #9EBCBC;
+	padding: .8em 1em;	
+  	border-color: #94B3B6 #8AACAF #689195 #8AACAF;	
+}
+td {
+	border-color: #E7DED3;	
+	padding: .7em 1em;	
+}	
+/* end - table */
+
+/* form elements */
+
+.refresh.mobile{
+	height: 100%;
+	width: 100%;
+}
+
+input, select, textarea {
+	margin: 5px 0;
+	padding: 8px 7px;
+	color: #989898;
+	border-width: 1px;
+	border-style: solid;
+  	border-color: #d4d4d4 #ebebeb #ebebeb #d4d4d4; 	
+	font: 11px 'Lucida Grande', Verdana, Helvetica, sans-serif;
+}
+
+input.button { 
+	font: bold 12px Arial, Sans-serif; 
+	height: 30px;
+	margin: 0;
+	padding: 2px 3px; 
+	color: #fff;
+	background: #4D8796;
+	
+	border-width: 1px;
+  	border-style: solid;
+  	border-color: #629EAE #38616C #38616C #629EAE;
+}
+
+
+.picture.Beer1 {
+	background: #090401 url(../images/beer1.jpg) ;
+	width: 155px;
+	height: 155px;
+}
+.picture.Beer2 {
+	background: #090401 url(../images/beer2.jpg) ; 
+	width: 155px;
+	height: 155px;
+}
+.picture.Beer3 {
+	background: #090401 url(../images/beer3.jpg) ;
+	width: 155px;
+	height: 155px;
+}
+.picture.Beer4 {
+	background: #090401 url(../images/beer4.jpg) ; 
+	width: 155px;
+	height: 155px;
+}
+.picture.Beer5 {
+	background: #090401 url(../images/beer5.jpg) ;
+	width: 155px;
+	height: 155px;
+}
+.picture.Beer6 {
+	background: #090401 url(../images/beer6.jpg) ; 
+	width: 155px;
+	height: 155px;
+}
+.picture.empty {
+	width: 155px;
+	height: 155px;
+}
+
